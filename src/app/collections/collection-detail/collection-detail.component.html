@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <div *ngIf="collection" class="card">
+        <div class="card-header">
+          <div class="row">
+            <app-author-meta
+              class="pull-left col-md-10"
+              [avatar]="collection.avatar"
+              [author]="collection.author"
+              [created]="collection.created">
+            </app-author-meta>
+            <span class="collection--category col-md-2 text-muted">{{collection.category}}</span>
+          </div>
+        </div>
+        <div class="card-block">
+          <h3>{{collection.title}}</h3>
+          <p>{{collection.summary}}</p>
+          <app-tags [tags]="collection.tags"></app-tags>
+          <app-resources [resources]="collection.resources"></app-resources>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-1">
+      <app-social></app-social>
+    </div>
+    <app-sidebar class="sidebar--container col-md-3"></app-sidebar>
+  </div>
+</div>

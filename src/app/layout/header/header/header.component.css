@@ -1,0 +1,10 @@
+.header {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  color: #2F6690;
+}

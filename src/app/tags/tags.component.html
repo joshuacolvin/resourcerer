@@ -1,0 +1,5 @@
+<div class="tags">
+  <h3 class="tags--title" *ngIf="title">{{title}}</h3>
+  <a href="/tags/{{tag}}" class="badge" *ngFor="let tag of tags">{{tag}}</a>
+</div>
+

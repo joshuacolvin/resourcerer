@@ -1,0 +1,458 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "author": "Sarah Parker",
+      "avatar": "https://randomuser.me/api/portraits/thumb/women/83.jpg"
+    }
+  ],
+  "collections": [
+    {
+      "id": 1,
+      "authorId": 1234,
+      "author": "Sarah Parker",
+      "avatar": "https://randomuser.me/api/portraits/thumb/women/83.jpg",
+      "title": "Learn React",
+      "summary": "A collection of resources to help you learn React",
+      "likes": 0,
+      "tags": ["JavaScript", "React"],
+      "category": "JavaScript",
+      "created": 1472773263121,
+      "resources": [
+        {
+          "title": "React Docs: Getting Started",
+          "url": "https://facebook.github.io/react/docs/getting-started.html",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Introduction",
+          "order": 1
+        },
+        {
+          "title": "React Docs: Tutorial",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-functions/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Introduction",
+          "order": 2
+        },
+        {
+          "title": "Learn raw React",
+          "url": "http://jamesknelson.com/learn-raw-react-no-jsx-flux-es6-webpack/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Introduction",
+          "order": 3
+        },
+        {
+          "title": "React Docs: Thinking in React",
+          "url": "https://facebook.github.io/react/docs/thinking-in-react.html",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Next steps",
+          "order": 1
+        },
+        {
+          "title": "React for Beginners",
+          "url": "https://reactforbeginners.com/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Introduction",
+          "order": 3
+        },
+        {
+          "title": "Frontend Masters: Complete Introduction to React",
+          "url": "https://frontendmasters.com/courses/react-intro/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Next steps",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "authorId": 1234,
+      "author": "Joshua Colvin",
+      "avatar": "https://randomuser.me/api/portraits/thumb/men/83.jpg",
+      "title": "Functional JavaScript",
+      "summary": "A collection of resources to help you learn function programming using JavaScript",
+      "likes": 0,
+      "tags": ["JavaScript", "Functional"],
+      "category": "JavaScript",
+      "created": 1472773263121,
+      "resources": [
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 1",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-intro/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Basics",
+          "order": 1
+        },
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 2",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-arrays/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Basics",
+          "order": 2
+        },
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 3",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-functions/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Intermediate",
+          "order": 1
+        },
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 4",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-style/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Advanced",
+          "order": 1
+        },
+        {
+          "title": "Professor Frisby/'s Mostly Adequate Guide to Funcitonal Programming",
+          "url": "https://drboolean.gitbooks.io/mostly-adequate-guide/content/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Intermediate",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "authorId": 1234,
+      "author": "Ashley Dodds",
+      "avatar": "https://randomuser.me/api/portraits/thumb/women/3.jpg",
+      "title": "Functional JavaScript",
+      "summary": "A collection of resources to help you learn function programming using JavaScript",
+      "likes": 14,
+      "tags": ["JavaScript", "Functional"],
+      "category": "JavaScript",
+      "created": 1472773263121,
+      "resources": [
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 1",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-intro/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Basics",
+          "order": 1
+        },
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 2",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-arrays/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Basics",
+          "order": 2
+        },
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 3",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-functions/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Intermediate",
+          "order": 1
+        },
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 4",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-style/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Advanced",
+          "order": 1
+        },
+        {
+          "title": "Professor Frisby/'s Mostly Adequate Guide to Funcitonal Programming",
+          "url": "https://drboolean.gitbooks.io/mostly-adequate-guide/content/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Intermediate",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "authorId": 1234,
+      "author": "Rachel Abromov",
+      "avatar": "https://randomuser.me/api/portraits/thumb/women/17.jpg",
+      "title": "Functional JavaScript",
+      "summary": "A collection of resources to help you learn function programming using JavaScript",
+      "likes": 0,
+      "tags": ["JavaScript", "Functional"],
+      "category": "JavaScript",
+      "created": 1472773263121,
+      "resources": [
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 1",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-intro/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Basics",
+          "order": 1
+        },
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 2",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-arrays/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Basics",
+          "order": 2
+        },
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 3",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-functions/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Intermediate",
+          "order": 1
+        },
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 4",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-style/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Advanced",
+          "order": 1
+        },
+        {
+          "title": "Professor Frisby/'s Mostly Adequate Guide to Funcitonal Programming",
+          "url": "https://drboolean.gitbooks.io/mostly-adequate-guide/content/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Intermediate",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "authorId": 1234,
+      "author": "Brian Edo",
+      "avatar": "https://randomuser.me/api/portraits/thumb/men/23.jpg",
+      "title": "Functional JavaScript",
+      "summary": "A collection of resources to help you learn function programming using JavaScript",
+      "likes": 0,
+      "tags": ["JavaScript", "Functional"],
+      "category": "JavaScript",
+      "created": 1472773263121,
+      "resources": [
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 1",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-intro/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Basics",
+          "order": 1
+        },
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 2",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-arrays/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Basics",
+          "order": 2
+        },
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 3",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-functions/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Intermediate",
+          "order": 1
+        },
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 4",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-style/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Advanced",
+          "order": 1
+        },
+        {
+          "title": "Professor Frisby/'s Mostly Adequate Guide to Funcitonal Programming",
+          "url": "https://drboolean.gitbooks.io/mostly-adequate-guide/content/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Intermediate",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "authorId": 1234,
+      "author": "Joshua Colvin",
+      "avatar": "https://randomuser.me/api/portraits/thumb/men/83.jpg", "title": "Functional JavaScript",
+      "summary": "A collection of resources to help you learn function programming using JavaScript",
+      "likes": 0,
+      "tags": ["JavaScript", "Functional"],
+      "category": "JavaScript",
+      "created": 1472773263121,
+      "resources": [
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 1",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-intro/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Basics",
+          "order": 1
+        },
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 2",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-arrays/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Basics",
+          "order": 2
+        },
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 3",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-functions/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Intermediate",
+          "order": 1
+        },
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 4",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-style/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Advanced",
+          "order": 1
+        },
+        {
+          "title": "Professor Frisby/'s Mostly Adequate Guide to Funcitonal Programming",
+          "url": "https://drboolean.gitbooks.io/mostly-adequate-guide/content/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Intermediate",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "authorId": 1234,
+      "author": "Joshua Colvin",
+      "avatar": "https://randomuser.me/api/portraits/thumb/men/83.jpg",
+      "title": "Functional JavaScript",
+      "summary": "A collection of resources to help you learn function programming using JavaScript",
+      "likes": 0,
+      "tags": ["JavaScript", "Functional"],
+      "category": "JavaScript",
+      "created": 1472773263121,
+      "resources": [
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 1",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-intro/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Basics",
+          "order": 1
+        },
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 2",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-arrays/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Basics",
+          "order": 2
+        },
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 3",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-functions/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Intermediate",
+          "order": 1
+        },
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 4",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-style/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Advanced",
+          "order": 1
+        },
+        {
+          "title": "Professor Frisby/'s Mostly Adequate Guide to Funcitonal Programming",
+          "url": "https://drboolean.gitbooks.io/mostly-adequate-guide/content/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Intermediate",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "authorId": 1234,
+      "author": "Joshua Colvin",
+      "avatar": "https://randomuser.me/api/portraits/thumb/men/83.jpg",
+      "title": "Functional JavaScript",
+      "summary": "A collection of resources to help you learn function programming using JavaScript",
+      "likes": 0,
+      "tags": ["JavaScript", "Functional"],
+      "category": "JavaScript",
+      "created": 1472773263121,
+      "resources": [
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 1",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-intro/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Basics",
+          "order": 1
+        },
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 2",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-arrays/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Basics",
+          "order": 2
+        },
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 3",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-functions/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Intermediate",
+          "order": 1
+        },
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 4",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-style/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Advanced",
+          "order": 1
+        },
+        {
+          "title": "Professor Frisby/'s Mostly Adequate Guide to Funcitonal Programming",
+          "url": "https://drboolean.gitbooks.io/mostly-adequate-guide/content/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Intermediate",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "authorId": 1234,
+      "author": "Joshua Colvin",
+      "avatar": "https://randomuser.me/api/portraits/thumb/men/83.jpg",
+      "title": "Functional JavaScript",
+      "summary": "A collection of resources to help you learn function programming using JavaScript",
+      "likes": 300,
+      "tags": ["JavaScript", "Functional"],
+      "category": "JavaScript",
+      "created": 1472773263121,
+      "resources": [
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 1",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-intro/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Basics",
+          "order": 1
+        },
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 2",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-arrays/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Basics",
+          "order": 2
+        },
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 3",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-functions/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Intermediate",
+          "order": 1
+        },
+        {
+          "title": "A Gentle Introduction to Functional JavaScript: Part 4",
+          "url": "http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-style/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Advanced",
+          "order": 1
+        },
+        {
+          "title": "Professor Frisby/'s Mostly Adequate Guide to Funcitonal Programming",
+          "url": "https://drboolean.gitbooks.io/mostly-adequate-guide/content/",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec ligula vitae velit fringilla consectetur eu ac orci. Sed bibendum vehicula diam in mollis. Vivamus sed mi eget sapien finibus maximus. Nullam tempus dignissim sem nec molestie. Aliquam lacinia tortor sapien, ac gravida nisi viverra vel.",
+          "category": "Intermediate",
+          "order": 2
+        }
+      ]
+    }
+  ]
+}

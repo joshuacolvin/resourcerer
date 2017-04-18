@@ -1,0 +1,15 @@
+<div class="card collection--card">
+  <div class="card-block">
+    <a routerLink="/collections/{{collection.id}}" class="card-title collection--title">{{collection.title}}</a>
+    <p class="card-text">{{collection.summary}}</p>
+  </div>
+  <div class="card-footer">
+    <div class="row">
+      <app-author-meta
+        [avatar]="collection.avatar"
+        [author]="collection.author"
+        [created]="collection.created">
+      </app-author-meta>
+    </div>
+  </div>
+</div>

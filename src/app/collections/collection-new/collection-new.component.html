@@ -1,0 +1,65 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-header ">
+          <div class="row">
+            <app-author-meta
+              *ngIf="user"
+              class="pull-md-left col-md-6"
+              [avatar]="user.avatar"
+              [author]="user.author">
+            </app-author-meta>
+            <div class="category col-md-6">
+              <div class="form-group row">
+                <label for="category" class="col-3 col-form-label">Category</label>
+                <div class="col-9">
+                  <input type="text" class="form-control pull-md-right" id="category" placeholder="category">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="collection-details-accordion" role="tablist" aria-multiselectable="true">
+          <div class="card-block">
+            <div class="card collection--info">
+              <div class="card-header" role="tab" id="collection-details">
+                <div class="row">
+                  <h5 class="col-md-11">Collection Details</h5>
+                  <div class="col-md-1">
+                    <a
+                      class="fa fa-caret-up fa-2x pointer"
+                      href="#collapseDetails"
+                      data-toggle="collapse"
+                      data-parent="#collection-details-accordion"
+                      aria-expanded="true"
+                      aria-controls="collapseDetails"
+                      *ngIf="!collectionDetailsCollapsed">
+                    </a>
+                    <i *ngIf="collectionDetailsCollapsed" class="fa fa-caret-down fa-2x pointer"></i>
+                  </div>
+                </div>
+              </div>
+              <div id="collapseDetails" class="card-block">
+                <div class="form-group">
+                  <label for="title">Title</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="summary">Summary</label>
+                  <textarea class="form-control" name="" id="" cols="30" rows="4"></textarea>
+                </div>
+                <div class="form-group">
+                  <label for="tags">Tags</label>
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+
+              <button class="btn">Add resource</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

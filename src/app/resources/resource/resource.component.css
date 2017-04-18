@@ -1,0 +1,11 @@
+.resource {
+  margin-bottom: 10px;
+}
+
+.draggable {
+  cursor: move;
+}
+
+.draggable:hover {
+  background-color: #f7f7f7;
+}

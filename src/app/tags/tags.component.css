@@ -1,0 +1,16 @@
+.badge {
+  color: rgba(0, 0, 0, .4);
+  background-color: #FFFFFF;
+  padding: .5em .4em;
+  border: 1px solid rgba(0,0,0,.125);
+  margin: 0 5px 5px 0;
+}
+
+.tags--title {
+  color: rgba(0, 0, 0, .5);
+  font-size: 18px;
+}
+
+.badge:hover {
+  color: rgba(0, 0, 0, .6);
+}
